@@ -28,8 +28,5 @@ Zusätzlich wird ein MinMax-Scaler verwendet, um die Daten zu normalisieren. Die
 ![Bitcoin Prognose](bitcoin_prognose.png)
 
 
-- D
-- D
-- D
 
 
