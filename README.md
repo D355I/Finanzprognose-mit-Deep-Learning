@@ -17,6 +17,7 @@ Das Ziel dieses Projekts ist es, historische Bitcoin-Preisdaten zu analysieren u
 # Modellübersicht
 
 Das Projekt verwendet ein LSTM-Modell mit einer sequentiellen Architektur. Dieses Modell umfasst:
+
 	•	Zwei LSTM-Schichten mit Dropout-Regularisierung, um Overfitting zu reduzieren.
 	•	Eine Dense-Schicht (voll verbunden), um die finale Vorhersage zu liefern.
 	•	Eine MSE-Loss-Funktion zur Optimierung des Modells und Minimierung des Fehlers zwischen tatsächlichen und vorhergesagten Werten.
