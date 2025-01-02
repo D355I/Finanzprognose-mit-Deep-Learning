@@ -21,6 +21,9 @@ Das Projekt verwendet ein LSTM-Modell mit einer sequentiellen Architektur. Diese
 	•	Zwei LSTM-Schichten mit Dropout-Regularisierung, um Overfitting zu reduzieren.
 	•	Eine Dense-Schicht (voll verbunden), um die finale Vorhersage zu liefern.
 	•	Eine MSE-Loss-Funktion zur Optimierung des Modells und Minimierung des Fehlers zwischen tatsächlichen und vorhergesagten Werten.
+ 
+Modellaufbau:
+![Modellaufbau](model_summary.png)
 
 Zusätzlich wird ein MinMax-Scaler verwendet, um die Daten zu normalisieren. Dies ist entscheidend für die effektive Nutzung neuronaler Netze, da es hilft, numerische Instabilitäten zu vermeiden.
 
